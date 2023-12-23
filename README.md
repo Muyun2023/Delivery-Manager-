@@ -16,7 +16,6 @@ In this project, we built a Delivery Management System based on JavaFX for both 
 
 # 💻 Environment
 • [JavaFx](https://openjfx.io/), tutorial [Getting Started](https://openjfx.io/openjfx-docs/)
-
 • [SceneBuilder](https://gluonhq.com/products/scene-builder/)
 
 # 🛠 Installation
@@ -32,7 +31,6 @@ This project was developed with the following technologies:
 - Eclipse
   
 OOD concepts used:
-- Class Definition
 - Inheritance/Polymorphism
 - Abstract Classes/Interfaces
 - Generics/Collections/Iterators
@@ -41,9 +39,9 @@ Data structure used:
 - Lists, Stacks, Queues/Priority Queues, Set/MapsGraph
 
 Other tools used:  
-- Git and GitHub
-- Google drive
-- Trello
+- Git&GitHub
+- Google Drive
+- Trello team/tasks management
 
 [⬆ Back to the top]<br>
 

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="300.0" minWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.login.CarrLoginViewController">
+   <children>
+      <ImageView fitHeight="379.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/images_login/click.png" />
+         </image>
+      </ImageView>
+      <VBox alignment="CENTER" layoutX="175.0" layoutY="88.0" prefHeight="69.0" prefWidth="250.0" spacing="20.0">
+         <children>
+            <TextField fx:id="userNameInput" promptText="Please Enter Your Name" />
+            <TextField fx:id="passwdInput" promptText="Please Enter Your Password" />
+         </children>
+      </VBox>
+      <Button fx:id="btnReturn" layoutX="97.0" layoutY="19.0" mnemonicParsing="false" onAction="#btnReturnClick" text="Return" />
+      <Button fx:id="btnHome" layoutX="35.0" layoutY="19.0" mnemonicParsing="false" onAction="#btnHomeClick" text="Home" />
+      <Label fx:id="errorInfoLabel" layoutX="175.0" layoutY="54.0" prefHeight="34.0" prefWidth="250.0" textFill="#fa670c">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <HBox alignment="CENTER" layoutX="192.0" layoutY="169.0" prefHeight="23.0" prefWidth="216.0" spacing="30.0">
+         <children>
+            <Button fx:id="btnCarriRegister" mnemonicParsing="false" onAction="#btnCarriRegisterClick" text="Regist" />
+            <Button fx:id="btnLogin" mnemonicParsing="false" onAction="#btnLoginClick" text="Login" />
+            <Button fx:id="btnForget" mnemonicParsing="false" onAction="#btnForgetClick" text="Forget" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

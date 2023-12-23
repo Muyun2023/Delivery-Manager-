@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="300.0" minWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.carrier.CarrierMainViewController">
+   <children>
+      <ImageView fitHeight="337.0" fitWidth="622.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/backgrounds/WechatIMG1074.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="192.0" fitWidth="287.0" layoutX="40.0" layoutY="92.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/deliveryMan.jpeg" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnHome" layoutX="23.0" layoutY="25.0" mnemonicParsing="false" onAction="#btnHomeClick" text="Home" />
+      <Button fx:id="btnReturn" layoutX="85.0" layoutY="25.0" mnemonicParsing="false" onAction="#btnReturnClick" text="Return" />
+      <VBox alignment="CENTER_LEFT" layoutX="341.0" layoutY="122.0" prefHeight="125.0" prefWidth="157.0" spacing="30.0">
+         <children>
+            <Button fx:id="btnScanPackage" mnemonicParsing="false" onAction="#btnScanPackageClick" prefHeight="26.0" prefWidth="150.0" text="Scan new Package" />
+            <Button fx:id="btnPackageStatus" mnemonicParsing="false" onAction="#btnPackageStatusClick" prefHeight="26.0" prefWidth="150.0" text="Change Package Status" />
+            <Button fx:id="btnPackageArrived" mnemonicParsing="false" onAction="#btnPackageArrivedClick" prefWidth="150.0" text="Package Delivered" />
+         </children>
+      </VBox>
+      <Label layoutX="274.0" layoutY="76.0" prefHeight="31.0" prefWidth="217.0" text="Super Carriers" textFill="#e8912f">
+         <font>
+            <Font name="Arial Bold Italic" size="27.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

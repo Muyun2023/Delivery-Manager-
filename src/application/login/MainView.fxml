@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.login.MainViewController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="725.0" layoutX="-29.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/backgrounds/WechatIMG1080.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="242.0" layoutY="107.0" prefHeight="41.0" prefWidth="323.0" text="Delivery Management System">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="26.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.5914489311163895" endY="0.44418052256532065">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.19179120659828186" green="0.26356762647628784" blue="0.8070175647735596" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Button fx:id="btnRecipientLogin" layoutX="337.0" layoutY="186.0" mnemonicParsing="false" onAction="#btnRecipientLoginClick" prefHeight="23.0" prefWidth="112.0" text="RECIPIENT">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnCarrierLogin" layoutX="337.0" layoutY="218.0" mnemonicParsing="false" onAction="#btnCarrierLoginClick" prefHeight="23.0" prefWidth="112.0" text="CARRIER">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

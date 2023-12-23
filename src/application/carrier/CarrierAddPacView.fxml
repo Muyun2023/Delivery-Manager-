@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="300.0" minWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.carrier.CarrierAddPacViewController">
+   <children>
+      <ImageView fitHeight="397.0" fitWidth="600.0">
+         <image>
+            <Image url="@../../images/backgrounds/WechatIMG1075.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="trackNumInput" layoutX="65.0" layoutY="174.0" prefHeight="26.0" prefWidth="229.0" promptText="enter 6 digital tracking number" />
+      <TextField fx:id="recipientNameInput" layoutX="65.0" layoutY="212.0" prefHeight="26.0" prefWidth="229.0" promptText="enter recipient's first name" />
+      <Button fx:id="btnConfirm" layoutX="65.0" layoutY="252.0" mnemonicParsing="false" onAction="#btnConfirmClick" text="Confirm" />
+      <Label layoutX="148.0" layoutY="102.0" text="New Package Arraving" textFill="#e88413">
+         <font>
+            <Font name="Arial Bold Italic" size="27.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnHome" layoutX="29.0" layoutY="30.0" mnemonicParsing="false" onAction="#btnHomeClick" text="Home" />
+      <Button fx:id="btnReturn" layoutX="95.0" layoutY="30.0" mnemonicParsing="false" onAction="#btnReturnClick" text="Return" />
+   </children>
+</AnchorPane>

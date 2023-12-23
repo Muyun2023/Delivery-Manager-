@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="300.0" minWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.carrier.CarrierArrivedViewController">
+   <children>
+      <ImageView fitHeight="371.0" fitWidth="663.0" layoutX="-22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/backgrounds/WechatIMG1074.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnHome" layoutX="29.0" layoutY="24.0" mnemonicParsing="false" onAction="#btnHomeClick" text="Home" />
+      <Button fx:id="btnReturn" layoutX="89.0" layoutY="24.0" mnemonicParsing="false" onAction="#btnReturnClick" text="Return" />
+      <Label layoutX="196.0" layoutY="65.0" text="Package is Arrived" textFill="#e0720d">
+         <font>
+            <Font name="Arial Bold Italic" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="182.0" layoutY="269.0" text="Upload Destination Image" textFill="#919ef2">
+         <font>
+            <Font name="Arial Bold" size="21.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imageView" fitHeight="165.0" fitWidth="265.0" layoutX="178.0" layoutY="103.0" onDragDropped="#handleDrop" onDragOver="#handleDragOver" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="btnNotify" layoutX="254.0" layoutY="301.0" mnemonicParsing="false" onAction="#btnNotifyClick" text="Notify Recipient" />
+      <Label fx:id="notiInfo" layoutX="153.0" layoutY="324.0" prefHeight="20.0" prefWidth="316.0">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

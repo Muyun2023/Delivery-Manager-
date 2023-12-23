@@ -1,7 +1,7 @@
 <h1 align="center"> Delivery Manager</h1>
 
 <p align="center">
-The Delivery Management System is the final project for CSYE6200-Concepts of Object-Oriented Design. <br/>
+A Delivery Management System as the final project of NEU course CSYE6200 Concepts of Object-Oriented Design. <br/>
 </p>
 
 <!-- TOC -->
@@ -25,25 +25,26 @@ In this project, we built a Delivery Management System based on JavaFX for both 
 
 # 🚀 Technologies
 This project was developed with the following technologies:
-- The implementation of our Delivery Management System uses the idea of MVC
 - JavaFX
+- MVC design pattern
+- MySQL
 - SceneBuilder
 - Eclipse
   
-OOD concepts used in this project:
+OOD concepts used:
 - Class Definition
 - Inheritance/Polymorphism
 - Abstract Classes/Interfaces
 - Generics/Collections/Iterators
 
-Data structure used in this project:  
+Data structure used:  
 - Lists
 - Stacks
 - Queues/Priority Queues
 - Set/Maps
 - Graph
 
-Other tools used in this project:  
+Other tools used:  
 - Git and GitHub
 - Google drive
 - Trello

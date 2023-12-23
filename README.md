@@ -38,11 +38,7 @@ OOD concepts used:
 - Generics/Collections/Iterators
 
 Data structure used:  
-- Lists
-- Stacks
-- Queues/Priority Queues
-- Set/Maps
-- Graph
+- Lists, Stacks, Queues/Priority Queues, Set/MapsGraph
 
 Other tools used:  
 - Git and GitHub

@@ -15,9 +15,9 @@ A Delivery Management System as the final project of NEU course CSYE6200 Concept
 In this project, we built a Delivery Management System based on JavaFX for both delivery man and recipient. 
 
 # 💻 Environment
-• [JavaFx](https://openjfx.io/), tutorial [Getting Started](https://openjfx.io/openjfx-docs/)
+[JavaFx](https://openjfx.io/), tutorial [Getting Started](https://openjfx.io/openjfx-docs/)
 
-• [SceneBuilder](https://gluonhq.com/products/scene-builder/)
+[SceneBuilder](https://gluonhq.com/products/scene-builder/)
 
 # 🛠 Installation
 1. Clone the repository into your local machine

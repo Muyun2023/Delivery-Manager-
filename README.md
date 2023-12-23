@@ -5,10 +5,10 @@ A Delivery Management System as the final project of NEU course CSYE6200 Concept
 </p>
 
 <!-- TOC -->
-*[📑 Overview](#-overview)
-*[💻 Environment](#-environment)
-*[🛠 Installation](#-installation)
-*[🚀 Technologies](#-technologies)
+* [📑 Overview](#-overview)
+* [💻 Environment](#-environment)
+* [🛠 Installation](#-installation)
+* [🚀 Technologies](#-technologies)
 <!-- TOC -->
 
 # 📑 Overview

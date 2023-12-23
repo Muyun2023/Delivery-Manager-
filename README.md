@@ -16,6 +16,7 @@ In this project, we built a Delivery Management System based on JavaFX for both 
 
 # 💻 Environment
 • [JavaFx](https://openjfx.io/), tutorial [Getting Started](https://openjfx.io/openjfx-docs/)
+
 • [SceneBuilder](https://gluonhq.com/products/scene-builder/)
 
 # 🛠 Installation

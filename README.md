@@ -13,20 +13,6 @@ A Delivery Management System as the final project of NEU course CSYE6200 Concept
 
 # 📑 Overview
 I built a Delivery Management System based on JavaFX for both delivery man and recipient. 
-### Preview
-<div align="center">
-<img src="demo/Home.png" width="400">
-<img src="demo/Login.png" width="450">
-<img src="demo/Carrier.png" width="450">
-<img src="demo/Recipient.png" width="430">
-<img src="demo/ScanPackage.png" width="350">
-<img src="demo/SetPackageStatus.png" width="450">
-<img src="demo/ArrivingNotification.png" width="450">
-<img src="demo/TrackPackage.png" width="450">
-<img src="demo/RecieveConfirmation.png" width="450">
-<img src="demo/PreferenceSet.png" width="450">
-<img src="demo/Rate&Feedback.png" width="450">
-</div>
 
 # 💻 Environment
 1. [JavaFx](https://openjfx.io/), tutorial [Getting Started](https://openjfx.io/openjfx-docs/)

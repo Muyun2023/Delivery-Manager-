@@ -18,7 +18,7 @@ I built a Delivery Management System based on JavaFX for both delivery man and r
 <img src="demo/Home.png" width="400">
 <img src="demo/Login.png" width="450">
 <img src="demo/Carrier.png" width="450">
-<img src="demo/Recipient.png" width="450">
+<img src="demo/Recipient.png" width="430">
 <img src="demo/ScanPackage.png" width="350">
 <img src="demo/SetPackageStatus.png" width="450">
 <img src="demo/ArrivingNotification.png" width="450">

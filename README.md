@@ -21,13 +21,13 @@ I created a Delivery Management System using JavaFX for delivery folks and recip
 <img src="demo/Recipient.png" width="500">
 </div>
 <div align="center">
-<h2 align="center">Carrier</h2>
+<h2 align="left">Functions for Carrier</h2>
 <img src="demo/ScanPackage.png" width="500">
 <img src="demo/SetPackageStatus.png" width="500">
 <img src="demo/ArrivingNotification.png" width="500">
 </div>
 <div align="center">
-<h2 align="center">Recipient</h2>
+<h2 align="left">Functions for Recipient</h2>
 <img src="demo/PreferenceSet.png" width="500">
 <img src="demo/RecieveConfirmation.png" width="500">
 <img src="demo/TrackPackage.png" width="500">

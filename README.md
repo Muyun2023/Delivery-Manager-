@@ -19,6 +19,10 @@ I created a Delivery Management System using JavaFX for delivery folks and recip
 <img src="demo/Login.png" width="500">
 <img src="demo/Carrier.png" width="500">
 <img src="demo/Recipient.png" width="500">
+<img src="demo/ScanPackage.png" width="500">
+<img src="demo/ArrivingNotification.png" width="500">
+<img src="demo/PreferenceSet.png" width="500">
+<img src="demo/RecieveConfirmation.png" width="500">
 </div>
 
 # 💻 Environment

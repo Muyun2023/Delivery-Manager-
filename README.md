@@ -12,7 +12,7 @@ A Delivery Management System as the final project of NEU course CSYE6200 Concept
 <!-- TOC -->
 
 # 📑 Overview
-Developed a Delivery Management System using JavaFX catering to both delivery personnel and recipients.This system ensures prompt delivery notifications, persisting until users confirm receipt. It offers a comprehensive package logistics tracking feature, empowering users to monitor their packages in real-time. Furthermore, it fosters seamless collaboration with existing delivery companies, optimizing the entire delivery process and enhancing the overall user experience.
+I created a Delivery Management System using JavaFX for delivery folks and recipients. It ensures on-time delivery notifications until users confirm receipt. You can track packages in real-time and get automatic updates. The system also allows you to customize notification preferences, confirm deliveries, and provide feedback to improve the process. It's designed to make deliveries smoother and keep users informed.
 ### Preview
 <div align="center">
 <img src="demo/Home.png" width="420">

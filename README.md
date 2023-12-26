@@ -52,7 +52,7 @@ This project was developed with the following technologies:
 - SceneBuilder
 - Eclipse
   
-OOD concepts used:
+OOD/OOP concepts used:
 - Inheritance/Polymorphism
 - Abstract Classes/Interfaces
 - Generics/Collections/Iterators
